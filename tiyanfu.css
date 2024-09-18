@@ -1,0 +1,405 @@
+.nav{
+    height: 107px;
+    background-color: #1c1e25;
+    border-bottom: 1px solid #383c4a;
+    width: 100%;
+}
+.containter{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+.containter::before{
+    content: "";
+    display: table;
+}
+.logo{
+    background: url(images/tiyanfu/logo.png) no-repeat;
+    width: 200px;
+    height: 101px;
+    display: inline;
+    margin: 23px 20px 20px 13px;
+    float: left;
+    text-indent: -999em;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 12px;
+}
+.list_nav ul{
+    float: right;
+    padding-top: 30px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.list_nav li{
+    width: 150px;
+    float: left;
+    margin-right: 40px;
+    display: inline;
+    margin: 0;
+    padding-top: 13px;
+}
+.list_nav .on a{
+    background-position: -8px -300px;
+    color: #1d1302;
+    display: block;
+    width: 150px;
+    height: 52px;
+    background: url(images/tiyanfu/sp.png);
+    background-position: -7px -300px;
+}
+.list_nav a:hover{
+    background-position: -8px -300px;
+    color: #1d1302;
+    display: block;
+    width: 150px;
+    height: 52px;
+    background: url(images/tiyanfu/sp.png);
+    background-position: -7px -300px;
+}
+.list_nav a{
+    display: block;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    height: 52px;
+    line-height: 46px;
+    text-decoration: none;
+    overflow: hidden;
+}
+.containter .top_like{
+    position: absolute;
+    width: 103px;
+    height: 35px;
+    
+    top: 8px;
+    right: 11px;
+    z-index: 99;
+    display: block;
+    font-size: 14px;
+    color: #979bad;
+    text-align: center;
+    padding-top: 60px;
+    background: url(images/tiyanfu/sp.png)no-repeat;
+    background-position: -477px -440px;
+    text-decoration: none;
+    overflow: hidden;
+}
+.containter::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+body{
+    font-size: 12px;
+    background: url(images/tiyanfu/bg.jpg)no-repeat 50%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.wrap{
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.wrap img{
+    border: 0;
+}
+.container2{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 12px;
+}
+.head {
+    height: 918px;
+    position: relative;
+}
+.houre {
+    position: absolute;
+    background: url(images/tiyanfu/hour.png) no-repeat;
+    width: 1118px;
+    height: 878px;
+    left: -51px;
+    top: -0px;
+}
+.slogan {
+    background: url(images/tiyanfu/slogan.png) no-repeat;
+    width: 659px;
+    height: 437px;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+}
+.mous {
+    background: url(images/tiyanfu/mous.png) no-repeat;
+    width: 32px;
+    height: 108px;
+    position: absolute;
+    top: 685px;
+    left: 855px;
+}
+.houre {
+    animation: houre 0.8s ease 0.2s both;
+}
+@keyframes houre {
+    0% {
+        transform: translate(-400px) scale(.9);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+.slogan {
+    animation: slogan 0.8s ease 0.2s both;
+}
+@keyframes slogan {
+    0% {
+        transform: translate(400px);
+    }
+}
+.mous {
+    animation: mous 0.8s linear 0.8s both infinite;
+}
+
+@keyframes mous {
+    50% {
+        transform: translateY(10px);
+    }
+}
+.caomei {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.caomei {
+    animation: caomei 0.6s ease 0.3s both;
+}
+@keyframes caomei {
+    0% {
+        transform: translateX(400px) scale(0.1);
+    }
+}
+.org {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 208px;
+}
+.org {
+    animation: org 0.8s ease 0.3s both;
+}
+@keyframes org {
+    0% {
+        transform: translate(-250px, 150px);
+    }
+}
+.heart {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    display: none;
+}
+.heart {
+    animation: heart 0.8s linear 0.8s both infinite;
+}
+@keyframes heart {
+    50% {
+        transform: scale(1.08);
+    }
+}
+.content {
+    padding-bottom: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  .c {
+      zoom:1;
+  }
+  .c::before, .c::after {
+    content: "";
+    display: table;
+  }
+  .c::after{
+      clear:both;
+  }
+  .news {
+      width: 483px;
+      height: 376px;
+      overflow: hidden;
+  }
+  .title {
+      background-color: #0a4d92;
+      height: 38px;
+      padding: 8px 0 0 11px;
+  }
+  .sp{
+      background: url(images/tiyanfu/sp.png);
+  }
+  .tit1 {
+      width: 137px;
+      height: 34px;
+      background-position: -12px -7px;
+      float: left;
+  }
+  .title .more {
+      float: right;
+      font-size: 16px;
+      color: #e3edfe;
+      line-height: 32px;
+      width: 84px;
+      height: 32px;
+      text-align: center;
+  }
+  .list_news {
+      width: 461px;
+      margin: 0 auto;
+      padding-left: 5px;
+  }
+  .list_news li {
+      float: left;
+      height: 48px;
+      width: 461px;
+      border-top: 1px dashed #53515a;
+  }
+  .list_news span {
+      float: left;
+      width: 350px;
+      font-size: 14px;
+      color: #ffffff;
+      line-height: 48px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+  }
+  .list_news em {
+      float: right;
+      font-size: 14px;
+      color: #ffffff;
+      width: 50px;
+      text-align: center;
+      line-height: 48px;
+  }
+  .list_news .first {
+      border: none;
+  }
+  .tit2 {
+      width: 203px;
+      height: 31px;
+      background-position: -158px -10px;
+      float: left;
+      margin-top: 2px;
+  }
+  .exp_text {
+      font-size: 14px;
+      color: #ffffff;
+      line-height: 1.64;
+      padding: 27px 22px 0 10px;
+      height: 120px;
+  }
+  .exp_text span {
+      color: #ffcd97;
+  }
+  .exp_fk {
+      height: 168px;
+      background-color: #0d437c;
+      border: 1px solid #10549c;
+  }
+  .fk_text {
+      font-size: 14px;
+      color: #ffffff;
+      float: left;
+      width: 257px;
+      margin: 30px 0 0 13px;
+      line-height: 1.55;
+  }
+  .btn_fk {
+      display: block;
+      float: left;
+      width: 201px;
+      height: 55px;
+      background-position: -168px -300px;
+      text-align: center;
+      font-size: 20px;
+      color: #402a04;
+      line-height: 50px;
+      font-weight: bold;
+      display: inline;
+      margin-top: 56px;
+  }
+  .rule {
+      width: 100%;
+      padding-bottom: 25px;
+      margin-top: 60px;
+  }
+  .tit3 {
+      width: 203px;
+      height: 29px;
+      background-position: -369px -11px;
+      float: left;
+      margin-top: 3px;
+  }
+  .rule_text {
+      padding: 26px 26px 0 10px;
+  }
+  
+  .rule_text strong {
+      display: block;
+      font-size: 16px;
+      color: #ffffff;
+      font-weight: bold;
+      line-height: 1;
+  }
+  .rule_text span {
+      display: block;
+      font-size: 14px;
+      color: #d7d7d7;
+      line-height: 1.7;
+      padding: 12px 0 0 15px;
+  }
+  .list_news li:first-child {
+      border: none;
+  }
+  
+  a {
+      text-decoration:none;
+      overflow:hidden;
+  }
+  a:hover {
+      text-decoration:none;
+  }
+  .hide {
+      display:block;
+      width:0;
+      height:0;
+      overflow:hidden;
+  }
+  .db {
+      display:block;
+      text-indent:-999em;
+  }
+  .pr {
+      position:relative;
+  }
+  .pa {
+      position:absolute;
+  }
+  .fl{
+      float: left;
+  }
+  .fr{
+      float: right;
+  }
+  .fiter{
+      background: url(images/tiyanfu/fiter.png) repeat;
+  }

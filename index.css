@@ -1,0 +1,501 @@
+*{
+    font-family: "微软雅黑","宋体";
+    padding: 0px;
+    margin: 0px;
+    /* 去掉所有标签的间距 */
+}
+body{
+    min-width: 1280px;
+    margin: 0px auto;
+}
+#bk{
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    top: 0px;
+    background-image: url(images/bk.jpg);
+    background-position: center;
+}
+.head{
+    width: 100%;
+    height: 85px;
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+}
+.nav{
+    color: #c9c9dd;
+    margin: 0px;
+}
+.nav_logo{
+    padding-left: 80px;
+    padding-top: 15px;
+    float: left;
+}
+.nav a{
+    color: #c9c9dd;
+}
+.nav span{
+    display: block;
+}
+.nav li{
+    float: left;
+    color: white;
+    list-style: none;
+    width: 96px;
+    height: 60px;
+    text-align: center;
+    padding-top: 24px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.nav span{
+    font-size: 12px;
+}
+.nav_logo2{
+    float: left;
+    padding-top: 24px;
+    padding-left: 40px;
+}
+.login{
+    float: left;
+    padding-top: 24px;
+}
+.login a{
+    color: #c9c9dd;
+    text-decoration: none;
+}
+.heikuang{
+    height: 0px;
+    overflow: hidden;
+    /* 溢出隐藏 */
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0,0.65);
+    top: 85px;
+}
+.heikuang ul{
+    float: left;
+    padding-top: 13px;
+
+}
+.heikuang li{
+    clear: both;
+    padding-top: 1px;
+    font-size: 14px;
+    height: 31px;
+}
+.heikuang .submenu1{
+    margin-left: 280px;
+}
+.nav li:hover .menubg{
+    background-color: rgba(250,240,100,0.3);
+    border-bottom: 4px solid #e4b653;
+    z-index: 111;
+    position: absolute;
+    width: 96px;
+    height: 84px;
+    top: 0px;
+}
+.head:hover .heikuang{
+    height: 250px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.heikuang li:hover{
+    background-color: none;
+    border-bottom: 1px solid #e4b653;
+    color: #e4b653;
+}
+/* main */
+#main{
+    width: 1200px;
+    height: 2000px;
+    position: relative;
+    top: 450px;
+    margin: 0px auto;
+}
+.picBt{
+    width: 604px;
+    height: 46px;
+    background: rgba(0,0,0,0.7);
+}
+.picSelf{
+    height: 298px;
+}
+.picBt li{
+    list-style: none;
+    float: left;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 12px;
+    padding-right: 9px;
+    padding-bottom: 15px;
+}
+.picLiBtShow{
+    background: #c9c9dd;
+    color: rgb(243,194,88);
+}
+.picLiBtHide{
+    background: none;
+    color: white;
+}
+
+/*  */
+.pic{
+    float: left;
+}
+.news{
+    float: left;
+    background: rgba(0, 0, 0, 0.7);
+    margin-left: 0;
+    color: #c9c9dd;
+    font-size: 12px;
+    width: 330px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.news a{
+    color: #c9c9dd;
+    font-size: 14px;
+    width: 270px;
+}
+.popular li a{
+    margin-right: 20px;
+}
+.popular a span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+    display: block;
+    float: left;
+}
+.popular li{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+}
+.newsTitle ul{
+    border-bottom: 1px solid black;
+    height: 39px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.newsTitle li{
+    float: left;
+    font-size: 14px;
+    padding-left: 14px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-right: 14px;
+
+}
+.newsTitle li#newsTitleLi{
+    padding-left: 7px;
+}
+.contentTitle{
+    clear: both;
+    padding-left: 25px;
+}
+.contentTitle a{
+    color: #f3c258;
+    width: 270px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 18px;
+    background: #77777a;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.newsShow{
+    display: block;
+}
+.newsHide{
+    display: none;
+}
+.newsTitleShow{
+    border-bottom: 3px solid #f3c258;
+}
+
+.linkBt{
+    float: left;
+}
+#links_download{
+    background-image: url(images/links.png);
+    background-position: 0px -218px;
+    width: 235px;
+    height: 130px;
+}
+#links_huweizhan{
+    background-image: url(images/links.png);
+    background-position: 0px -351px;
+    width: 235px;
+    height: 106px;
+}
+#links_tiyan{
+    background-image: url(images/links.png);
+    background-position: 0px -460px;
+    width: 235px;
+    height: 108px;
+}
+.picList{
+    height: 550px;
+}
+.picList .pics{
+    padding-top: 30px;
+    float: left;
+    width: 285px;
+    height: 134px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.picList .pics2{
+
+    padding-top: 30px;
+    float: left;
+    width: 285px;
+    height: 134px;
+    margin-right: 0px;
+}
+.picList .pics img{
+    width: 285px;
+    height: 134px;
+}
+.picList .pics img:hover{
+    width: 285px;
+    height: 134px;
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+
+.content{
+    width: 100%;
+    height: 520px;
+    
+}
+.center{
+    width: 880px;
+    height: 520px;
+    float: left;
+}
+
+.centerHeader{
+    width: 100%;
+    height: 50px;
+
+}
+.headerLogo{
+    background-image: url(images/links.png);
+    background-position: 0px -145px;
+    width: 29px;
+    height: 23px;
+    float: left;
+}
+.centerHeader span{
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    float: left;
+}
+.contentHeader span{
+    font-weight: bold;
+    font-size: 22px;
+}
+.centerHeader .Btmore{
+    float: left;
+    background-image: url(images/links.png);
+    background-position: -240px 20px;
+    width: 20px;
+    height: 18px;
+    margin-top: 9px;
+}
+.contentHeader .Btmore{
+    height: 20px;
+}
+.center  .textMore{
+    float: right;
+    color: #b3a9a9;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.centerMenu{
+    width: 100%;
+    height: 35px;
+    background: #e9dfdf;
+    margin-bottom: 15px;
+}
+.centerMenu ul li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin-top: 6px;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+.centerMenu ul li:hover{
+    border-bottom: 2px solid orange;
+}
+.center .nr{
+    width: 210px;
+    float: left;
+    margin-right: 12px;
+    position: relative;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.center .nr img{
+    width: 210px;
+    height: 125px;
+}
+.center a:nth-of-type(4) .nr{
+    margin-right: 0px;
+}
+.center a:nth-of-type(8) .nr{
+    margin-right: 0px;
+}
+.center .nrBg{
+    position: absolute;
+    background: black;
+    opacity: 0.3;
+    width: 210px;
+    height: 125px;
+    top: 0;
+    display: none;
+}
+.center .nrIco{
+    position: absolute;
+    background-image: url(images/links.png);
+    background-position: -192px -64px;
+    top: 40px;
+    width: 50px;
+    left: 80px;
+    height: 50px;
+    display: none;
+}
+.center .nr:hover .nrBg{
+    display: block;
+}
+.center .nr:hover .nrIco{
+    display: block;
+}
+.center .content_show{
+    display: block;
+}
+.center .content_hide{
+    display: none;
+}
+
+.hero{
+    width: 280px;
+    height: 480px;
+    float: left;
+    margin-left: 20px;
+}
+.heroHeader{
+    margin-bottom: 20px;
+}
+.heroHeader .heroLogo{
+    background-image: url(images/links.png);
+    background-position: 0px -150px;
+    width: 29px;
+    height: 28px;
+    float: left;
+}
+.heroHeader span{
+    font-size: 22px;
+    font-weight: bold;
+}
+.heroHeader .textMore{
+    float: right;
+    color: #b3a9a9;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.heroHeader .Btmore{
+    float: right;
+    background-image: url(images/links.png);
+    background-position: -251px 0px;
+    width: 20px;
+    height: 15px;
+    margin-top: 9px;
+}
+.hero .heroPic{
+    width: 280px;
+    height: 156px;
+    
+}
+.zxyxPic{
+    background-image: url(images/英雄/1.jpg);
+}
+.zxpfPic{
+    background-image: url(images/皮肤/1.jpg);
+}
+.heroText{
+    width: 278px;
+    border-left: 1px solid #ada6a6;
+    border-bottom: 1px solid #ada6a6;
+    border-right: 1px solid #ada6a6;
+    padding-top: 10px;
+}
+.hero.heroText span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding-left: 20px;
+
+}
+.heroText div{
+    color: #999;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+.dyg{
+    float: left;
+    margin-right: 2px;
+}
+.dyg:nth-of-type(4){
+    margin-right: 0px;
+}
+.heroBg{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 68px;
+    height: 173px;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.heroBg span{
+    writing-mode: vertical-lr;
+    position: relative;
+    top: 63px;
+    left: 24px;
+    color: #ffcc13;
+    display: none;
+}
+.dyg:hover .heroBg{
+    display: block;
+}
+.dyg:hover span{
+    display: block;
+}
+.heroShow{
+    display: block;
+}
+.heroHide{
+    display: none;
+}
